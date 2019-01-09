@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Excercice1 from './excercice1';
 import './bootstrap.min.css';
 
 function Sum(props) {
@@ -15,8 +16,7 @@ class AuthorQuiz extends Component {
   render() {
     return (
       <div>
-        <div>Author Quiz</div>
-        <Sum a={5} b={2}></Sum>
+        <Excercice1></Excercice1>
       </div>
     );
   }
